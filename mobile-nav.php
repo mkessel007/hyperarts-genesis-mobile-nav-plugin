@@ -10,6 +10,8 @@ Description: Putting OZZY RODRIGUEZ awesome code into a simple to install plugin
 Author: OZZY RODRIGUEZ & Adam LaBarge of Hyperarts
 Version: 1.0.0
 Author URI: http://ozzyrodriguez.com/ & https://github.com/adamplabarge &http://hyperarts.com
+
+*	From here: http://wpbacon.com/tutorials/genesis-responsive-menu-2-0/
 */
 
 defined('ABSPATH') or die("No direct access");
