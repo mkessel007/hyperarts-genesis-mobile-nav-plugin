@@ -24,8 +24,8 @@ defined('ABSPATH') or die("No direct access");
 add_action( 'init', 'ha_genesis_mobile_nav_register_scripts' );
 function ha_genesis_mobile_nav_register_scripts() {
 
-	wp_register_style( 'ha-mobile-nav', plugins_url() . '/hyperarts-genesis-mobile-nav-plugin/mobile-nav.css', array(), '1.0.0' );
-	wp_register_script( 'ha-mobile-nav', plugins_url() . '/hyperarts-genesis-mobile-nav-plugin/mobile-nav.js', array( 'jquery' ), '1.0.0', true);
+	wp_register_style( 'ha-mobile-nav', plugins_url() . '/hyperarts-genesis-mobile-nav-plugin-master/mobile-nav.css', array(), '1.0.0' );
+	wp_register_script( 'ha-mobile-nav', plugins_url() . '/hyperarts-genesis-mobile-nav-plugin-master/mobile-nav.js', array( 'jquery' ), '1.0.0', true);
 }
 
 /**
